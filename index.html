@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-sacel=1.0"/>
+  <title></title>
+  <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+  <!-- End Google fonts -->
+  <link rel="stylesheet" href="./css/normalize.css"/>
+  <link rel="stylesheet" href="./css/style.css"/>
+  <!-- Scripts -->
+  <script src="./js/slider.js"></script>
+  <script src="./js/questions.js"></script>
+  <script src="./js/menu.js"></script>
+  <!-- End Scripts -->
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav limited-container">
+      <div class="nav__logo">
+        <h2 class="nav__title">Curso CSS</h2>
+      </div>
+      <ul class="nav__link nav__link--menu">
+        <li class="nav__items">
+          <a href="" class="nav__links">Inicio</a>
+        </li>
+        <li class="nav__items">
+          <a href="" class="nav__links">Acerca de</a>
+        </li>
+        <li class="nav__items">
+          <a href="" class="nav__links">Contactos</a>
+        </li>
+        <li class="nav__items">
+          <a href="" class="nav__links">Blog</a>
+        </li>
+        <img src="./assets/img/close.svg" alt="Icono de cierre de menú" class="nav__close" >
+      </ul>
+      <div class="nav__menu">
+        <img src="./assets/img/menu.svg" alt="Icono de menú" class="nav__img" >
+      </div>
+    </nav>
+
+    <section class="hero__container limited-container">
+      <h1 class="hero__title">Aprende CSS3 desde CERO hasta dominarlo.</h1>
+      <p class="hero__paragraph">Elige aprender CSS de una vez por todas, una vez que termines este curso serás capaz de crear cualquier layout con CSS y crear tus propias animaciones.</p>
+      <a href="#" class="cta">Comienza ahora</a>
+    </section>
+
+  </header>
+
+  <main>
+    <section class="about limited-container">
+      <h2 class="subtitle">¿Qué aprenderás en este curso?</h2>
+      <p class="about__paragraph">Todo lo necesario y obligatorio de CSS (Flexbox, Grid, Custom properties, Position, Animaciones, Box Model y más ...)</p>
+      <div class="about__main">
+        <article class="about__icons">
+          <img src="./assets/img/shapes.svg" alt="Icono representativo" class="about__icon">
+          <h3 class="about__title">CSS Layout</h3>
+          <p class="about__paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam molestiae sapiente nam soluta!</p>
+        </article>
+        <article class="about__icons">
+          <img src="./assets/img/paint.svg" alt="Icono representativo" class="about__icon">
+          <h3 class="about__title">Animaciones</h3>
+          <p class="about__paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam molestiae sapiente nam soluta!</p>
+        </article>
+        <article class="about__icons">
+          <img src="./assets/img/code.svg" alt="Icono representativo" class="about__icon">
+          <h3 class="about__title">SASS</h3>
+          <p class="about__paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam molestiae sapiente nam soluta!</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="knowledge">
+      <div class="knowledge__container limited-container">
+        <div class="knowledge__texts">
+          <h2 class="subtitle">Curso completo de CSS3. ¡Domina CSS de uan vez por todas!</h2>
+          <p class="knowledge__paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo dicta optio ipsa deserunt ipsam, eius minus vero debitis aliquid nam accusantium quae earum veniam sed atque commodi quia dolores voluptatibus.</p>
+          <a href="#" class="cta">Entra al curso</a>
+        </div>
+        <figure class="knowledge__picture">
+          <img src="./assets/img/macbook.png" alt="Ilustración de una Macbook" class="knowledge__img">
+        </figure>
+      </div>
+    </section>
+
+    <section class="price limited-container">
+      <h2 class="subtitle">Obten el plan perfecto para aprender</h2>
+
+      <div class="price__table">
+
+        <div class="price__element">
+          <p class="price__name">Flexbox</p>
+          <h3 class="plan__price">Free</h3>
+          <div class="price__items">
+            <p class="price__features">Flexbox</p>
+            <p class="price__features">Layouts</p>
+            <p class="price__features">Responsive</p>
+          </div>
+          <a href="" class="price__cta">Empieza ahora</a>
+        </div>
+
+        <div class="price__element price__element--best">
+          <p class="price__name">Grid</p>
+          <h3 class="plan__price">$30/mes</h3>
+          <div class="price__items">
+            <p class="price__features">Grid</p>
+            <p class="price__features">Implicit Grid</p>
+            <p class="price__features">Responsive</p>
+          </div>
+          <a href="" class="price__cta">Empieza ahora</a>
+        </div>
+
+        <div class="price__element">
+          <p class="price__name">Animaciones</p>
+          <h3 class="plan__price">$40/mes</h3>
+          <div class="price__items">
+            <p class="price__features">Animation</p>
+            <p class="price__features">Transition</p>
+            <p class="price__features">Renser Website</p>
+          </div>
+          <a href="" class="price__cta">Empieza ahora</a>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="testimony">
+      <div class="testimony__container limited-container">
+        <img src="./assets/img/leftarrow.svg" alt="Left arrow icon" class="testimony__arrow" id="before">
+
+        <section class="testimony__body testimony__body--show" data-id="1">
+          <div class="testimony__texts">
+            <h2 class="subtitle">Mi nombre es Katharine Hepburn, <span class="testimony__course">estudiante de CSS</span></h2>
+            <p class="testimony__review">I just wanted you to know that this class has been AWESOME! It is by far, the best online class I have ever taken. The instructor is phenomenal. He has really gone over and beyond and I have learned so much in only a couple of days!</p>
+          </div>
+          <figure class="testimony__picture">
+            <img src="./assets/img/face.jpg" alt="Photo" class="testimony__img">
+          </figure>
+        </section>
+
+        <section class="testimony__body" data-id="2">
+          <div class="testimony__texts">
+            <h2 class="subtitle">Mi nombre es Julie Andrews, <span class="testimony__course">estudiante de CSS</span></h2>
+            <p class="testimony__review">I would really like to express my thanks to the instructors for their time, patience and enthusiasm for teaching this course in a highly professional manner.</p>
+          </div>
+          <figure class="testimony__picture">
+            <img src="assets/img/face2.jpg" alt="Photo" class="testimony__img">
+          </figure>
+        </section>
+
+        <section class="testimony__body" data-id="3">
+          <div class="testimony__texts">
+            <h2 class="subtitle">Mi nombre es Ted Chiang, <span class="testimony__course">estudiante de CSS</span></h2>
+            <p class="testimony__review">In four days this course provided me with the essential tools I needed to do my job well and a wealth of resources at my fingertips as I grow as a web administrator. The interactive learning style is great, I would absolutely take a course with Dream compiler in the future!</p>
+          </div>
+          <figure class="testimony__picture">
+            <img src="assets/img/face3.jpg" alt="Photo" class="testimony__img">
+          </figure>
+        </section>
+
+        <section class="testimony__body" data-id="4">
+          <div class="testimony__texts">
+            <h2 class="subtitle">Mi nombre es Antonio Fuentes, <span class="testimony__course">estudiante de CSS</span></h2>
+            <p class="testimony__review">My learning experience was flexibly tailored to fit my particular needs of managing websites and understanding the languages of website development. The course material is content rich and I was given extra material for future reference ...Thanks!</p>
+          </div>
+          <figure class="testimony__picture">
+            <img src="assets/img/face4.jpg" alt="Photo" class="testimony__img">
+          </figure>
+        </section>
+
+        <img src="./assets/img/rightarrow.svg" alt="Right arrow icon" class="testimony__arrow" id="next">
+      </div>
+    </section>
+
+    <section class="questions limited-container">
+      <h2 class="subtitle">Preguntas Frecuentes</h2>
+      <p class="questions__paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi voluptatum, ipsum ducimus fugit totam autem.</p>
+
+      <section class="questions__container">
+
+        <article class="questions__padding">
+          <div class="questions__answer">
+            <h3 class="questions__title">¿Qués es CSS?
+              <span class="questions__arrow">
+                <img src="./assets/img/arrow.svg" alt="Arrow icon" class="questions_img">
+              </span>
+            </h3>
+            <p class="questions__show">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam amet neque modi, officia ipsum, saepe vitae soluta magni quidem maiores consectetur incidunt mollitia porro magnam excepturi fuga nisi? Hic saepe repellendus deserunt iure repellat sequi, fugiat molestias, maiores temporibus nihil similique laudantium aspernatur, totam dicta culpa. Labore porro ut tenetur?</p>
+          </div>
+        </article>
+
+        <article class="questions__padding">
+          <div class="questions__answer">
+            <h3 class="questions__title">¿Qués aprenderé en este curso?
+              <span class="questions__arrow">
+                <img src="./assets/img/arrow.svg" alt="Arrow icon" class="questions_img">
+              </span>
+            </h3>
+            <p class="questions__show">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam amet neque modi, officia ipsum, saepe vitae soluta magni quidem maiores consectetur incidunt mollitia porro magnam excepturi fuga nisi? Hic saepe repellendus deserunt iure repellat sequi, fugiat molestias, maiores temporibus nihil similique laudantium aspernatur, totam dicta culpa. Labore porro ut tenetur?</p>
+          </div>
+        </article>
+
+        <article class="questions__padding">
+          <div class="questions__answer">
+            <h3 class="questions__title">¿Qués es CSS Grid?
+              <span class="questions__arrow">
+                <img src="./assets/img/arrow.svg" alt="Arrow icon" class="questions_img">
+              </span>
+            </h3>
+            <p class="questions__show">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam amet neque modi, officia ipsum, saepe vitae soluta magni quidem maiores consectetur incidunt mollitia porro magnam excepturi fuga nisi? Hic saepe repellendus deserunt iure repellat sequi, fugiat molestias, maiores temporibus nihil similique laudantium aspernatur, totam dicta culpa. Labore porro ut tenetur?</p>
+          </div>
+        </article>
+
+      </section>
+
+      <section class="questions__offer">
+        <h2 class="subtitle">¿Estas listo para aprender CSS?</h2>
+        <p class="questions__copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias quo sapiente delectus! Doloremque adipisci esse quam officiis! Magni repellat perferendis nihil maiores voluptate voluptates laudantium blanditiis officiis harum aut. Quod.</p>
+        <a href="#" class="cta">Aprende ahora</a>
+      </section>
+    </section>
+  </main>
+
+  <footer class="footer">
+
+    <section class="footer__container limited-container">
+
+      <nav class="nav nav--footer">
+
+        <h2 class="footer__title">Curso CSS</h2>
+
+        <ul class="nav__link nav__link--footer">
+          <li class="nav__items">
+            <a href="" class="nav__links">Inicio</a>
+          </li>
+          <li class="nav__items">
+            <a href="" class="nav__links">Acerca de</a>
+          </li>
+          <li class="nav__items">
+            <a href="" class="nav__links">Contactos</a>
+          </li>
+          <li class="nav__items">
+            <a href="" class="nav__links">Blog</a>
+          </li>
+        </ul>
+
+      </nav>
+
+      <form class="footer__form">
+        <h2 class="footer__newsletter">Suscribete a la newsletter</h2>
+        <div class="footer__inputs">
+          <input type="email" placeholder="Email" class="footer__input">
+          <input type="submit" value="Registrate" class="footer__submit">
+        </div>
+      </form>
+    </section>
+
+    <section class="footer__copy limited-container">
+      <div class="footer__social">
+        <a href="#" class="footer__icons">
+          <img src="./assets/img/facebook.svg" alt="Facebook icon" class="footer__img">
+        </a>
+        <a href="#" class="footer__icons">
+          <img src="./assets/img/twitter.svg" alt="Twitter icon" class="footer__img">
+        </a>
+        <a href="#" class="footer__icons">
+          <img src="./assets/img/youtube.svg" alt="Youtube icon" class="footer__img">
+        </a>
+      </div>
+      <p class="footer__copyright">Todos los derechos reservados &copy; jcyepesgarcia</p>
+    </section>
+  </footer>
+
+
+</body>
+</html>
